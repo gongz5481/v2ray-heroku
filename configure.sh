@@ -31,14 +31,14 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                 "network": "ws"
                 "wsSettings": {
                 "path": "/web"
-               }
-                
-            }
+              }
+           }
         }
     ],
     "outbounds": [
         {
             "protocol": "freedom"
+            "settings": {}
         }
     ]
 }
